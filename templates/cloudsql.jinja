@@ -17,7 +17,7 @@ resources:
         enabled: true
       ipConfiguration:
         privateNetwork: projects/myjobplanner-1520708021669/global/networks/default
-
+        ipv4Enabled: false
 
 - name: {{ database_name }}
   type: gcp-types/sqladmin-v1beta4:databases
