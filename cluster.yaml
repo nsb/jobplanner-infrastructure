@@ -1,0 +1,14 @@
+imports:
+- path: templates/cluster.jinja        
+  name: myjobplanner-cluster.jinja
+
+resources:                             
+- name: myjobplanner-cluster
+  type: myjobplanner-cluster.jinja
+  properties:
+    description: "myJobPlanner Cluster"
+    zones:
+    - europe-west3-b
+    - europe-west3-c
+    machineType: g1-small
+    initialNodeCount: 1

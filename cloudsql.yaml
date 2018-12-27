@@ -1,0 +1,11 @@
+imports:
+- path: templates/cloudsql.jinja        
+  name: myjobplanner-cloudsql.jinja
+
+resources:                             
+- name: myjobplanner-cloudsql
+  type: myjobplanner-cloudsql.jinja
+  properties:
+    description: "myJobPlanner CloudSQL"
+    region: europe-west3
+    
