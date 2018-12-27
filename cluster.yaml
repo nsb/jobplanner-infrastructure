@@ -8,7 +8,7 @@ resources:
   properties:
     description: "myJobPlanner Cluster"
     zones:
-    - europe-west3-b
     - europe-west3-c
+    # - europe-west3-a
     machineType: g1-small
     initialNodeCount: 1
