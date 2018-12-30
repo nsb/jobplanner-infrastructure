@@ -1,0 +1,12 @@
+imports:
+- path: templates/cloudsql.jinja        
+  name: dinero-cloudsql.jinja
+
+resources:
+- name: dinero-cloudsql
+  type: dinero-cloudsql.jinja
+  properties:
+    description: "Dinero CloudSQL"
+    region: europe-west3
+    tier: 'db-f1-micro'
+

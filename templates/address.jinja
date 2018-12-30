@@ -1,0 +1,6 @@
+{% set deployment_name = env['deployment']  %}
+{% set address_name = deployment_name + '-address'  %}
+
+resources:
+- name: {{ address_name }}
+  type: compute.beta.address

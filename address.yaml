@@ -1,0 +1,12 @@
+imports:
+- path: templates/address.jinja
+  name: dinero-address.jinja
+
+resources:
+- name: dinero-address
+  type: dinero-address.jinja
+  properties:
+    description: "Dinero Address"
+    
+
+
